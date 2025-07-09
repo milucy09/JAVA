@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArithmeticTask",
+            "request": "launch",
+            "mainClass": "Tasks.ArithmeticTask",
+            "projectName": "JAVA_4e356704"
+        },
+        {
+            "type": "java",
+            "name": "Task2",
+            "request": "launch",
+            "mainClass": "Tasks.Task2",
+            "projectName": "JAVA_4e356704"
+        },
+        {
+            "type": "java",
+            "name": "Task3",
+            "request": "launch",
+            "mainClass": "Tasks.Task3",
+            "projectName": "JAVA_4e356704"
+        },
+        {
+            "type": "java",
+            "name": "Task4",
+            "request": "launch",
+            "mainClass": "Tasks.Task4",
+            "projectName": "JAVA_4e356704"
+        },
+        {
+            "type": "java",
+            "name": "helloWorldApp",
+            "request": "launch",
+            "mainClass": "Tasks.helloWorldApp",
+            "projectName": "JAVA_4e356704"
+        },
+        {
+            "type": "java",
+            "name": "helloWorldApp(1)",
+            "request": "launch",
+            "mainClass": "helloWorldApp",
+            "projectName": "JAVA_4e356704"
+        }
+    ]
+}
