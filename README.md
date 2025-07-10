@@ -20,6 +20,7 @@ Change the variables in the first section, so that each if statement resolves as
 # Task10
 
 Write the method printFullName of student which prints the full name of a student.
+
 class Student {
     private String firstName;
     private String lastName;
@@ -27,7 +28,7 @@ class Student {
         this.firstName = firstName;
         this.lastName = lastName;
     }
-Your code goes here
+    Your code goes here
 }
 public class Tasksheet122{
     public static void main(String[] args) { 
@@ -44,3 +45,34 @@ public class Tasksheet122{
 }
 
 # Task11
+
+Taskll.java
+Task: Create a Java class to represent a Book and implement a constructor to initialize its attributes. Instructions:
+Create a new Java class called "Book" with the following attributes:
+• String title
+• String author 
+• int yearPublished
+• double price
+
+Implement a constructor in the Book class that takes four parameters corresponding to the attributes and initializes them.Create a main method in a separate class to test the constructor: • Instantiate three Book objects with different values using the constructor.
+
+• Print out the details of each book (title, author, yearPublished, and price) using toString();
+
+Example Output:
+
+Book 1:
+Title: "Java Programming"
+Author: "John Smith"
+Year Published: 2021
+Price: $39.99
+
+Book 2:
+Title: "Python Basics" Author: "Jane Doe"
+Year Published: 2020
+Price: $29.99
+
+Book 3:
+Title: "C++ Essentials"
+Author: "Michael Johnson"
+Year Published: 2019
+Price: $49.99

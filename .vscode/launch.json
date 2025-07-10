@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Task11",
+            "request": "launch",
+            "mainClass": "Tasks.Task11",
+            "projectName": "JAVA_4e356704"
+        },
+        {
+            "type": "java",
+            "name": "Task10",
+            "request": "launch",
+            "mainClass": "Tasks.Task10",
+            "projectName": "JAVA_4e356704"
+        },
+        {
+            "type": "java",
             "name": "Tasksheet122",
             "request": "launch",
             "mainClass": "Tasks.Tasksheet122",
