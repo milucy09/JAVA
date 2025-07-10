@@ -20,8 +20,8 @@ public class Task10{
             new Student("Kevin", "Spacey"),
     };
     
-    for (Student s: students) {
-        s.printFullName();
+        for (Student s: students) {
+            s.printFullName();
         }
     }
 }

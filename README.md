@@ -16,6 +16,11 @@ Change the variables in the first section, so that each if statement resolves as
     }
 
 # Task4
+# Task5
+
+Task5.java
+Check whose largest number in 3 inputs
+Write a program that takes in three numbers from the user and outputs the largest number. if all numbers are equal it will print All numbers are equal
     
 # Task10
 
