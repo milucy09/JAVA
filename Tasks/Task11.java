@@ -1,23 +1,23 @@
 package Tasks;
 
 class Book {
-     String Title;
-     String Author;
+     String title;
+     String author;
      int yearPublished;
      double price;
 
     Book(String Title, String Author,int yearPublished, double price){
-        this.Title = Title;
-        this.Author = Author;
+        this.title = Title;
+        this.author = Author;
         this.yearPublished = yearPublished;
         this.price = price; 
     }
     
     public String toString() {
-        return "Title: \"" + Title + "\"\n" +
-                "Author: \"" + Author + "\"\n" +
+        return "Title: \"" + title + "\"\n" +
+                "Author: \"" + author + "\"\n" +
                 "yearPublished: \"" + yearPublished + "\"\n" +
-                "price: $" + price + "\n";
+                "Price: $" + price + "\n";
     }
 }
 
