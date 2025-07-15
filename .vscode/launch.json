@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Task12",
+            "request": "launch",
+            "mainClass": "Tasks.Task12",
+            "projectName": "JAVA_4e356704"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "Tasks.TwoSum",
+            "projectName": "JAVA_4e356704"
+        },
+        {
+            "type": "java",
+            "name": "SupplierConsumerExample",
+            "request": "launch",
+            "mainClass": "Lessons.chapter4.SupplierConsumerExample",
+            "projectName": "JAVA_4e356704"
+        },
+        {
+            "type": "java",
+            "name": "IntToStringConsumer",
+            "request": "launch",
+            "mainClass": "Lessons.chapter4.IntToStringConsumer",
+            "projectName": "JAVA_4e356704"
+        },
+        {
+            "type": "java",
+            "name": "IntToStringSupplier",
+            "request": "launch",
+            "mainClass": "Lessons.chapter4.IntToStringSupplier",
+            "projectName": "JAVA_4e356704"
+        },
+        {
+            "type": "java",
             "name": "Task6",
             "request": "launch",
             "mainClass": "Tasks.Task6",
