@@ -124,3 +124,23 @@ public class Tasksheet124 {
         }
     }
 }
+
+# Task13
+
+Task13.java
+1. Create a base class called Vehicle with the following attributes:
+    • make (String): The make of the vehicle.
+    • model (String): The model of the vehicle.
+    • year (int): The manufacturing year of the vehicle
+2. Create a derived class called Car that extends the Vehicle class. The Car class should have an additional attribute:
+    • numberOfDoors (int): The number of doors in the car.
+3. Create an instance of the Car class and set values for its attributes.
+4. Implement a method in the Car class called displayDetails() that prints out the details of the car, including the inherited attributes from the Vehicle class.
+
+Sample output:
+
+Car Details:
+Make: Toyota
+Model: Camry
+Year: 2022
+Number of Doors: 4
