@@ -35,6 +35,15 @@ public static void main(String[] args) {
     Your code goes here
     }
 
+
+# Task7
+
+Task7.java
+Create a program where user input two numbers and perform 4 basic arithmetic operations using 4 methods with returns and print results.
+
+# Task8
+
+
 # Task10
 
 Write the method printFullName of student which prints the full name of a student.
