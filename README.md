@@ -43,6 +43,10 @@ Create a program where user input two numbers and perform 4 basic arithmetic ope
 
 # Task8
 
+Task8.java
+Write a program featuring an integer variable arguments method. The method should return the sum of all parameters and, for each parameter, the cumulative sum up to that point. For instance, given parameters (4, 5, 10), the program should compute the total for the first parameter, such as 4 = (1+2+3+4), and repeat this process for subsequent parameters.
+
+# Task9
 
 # Task10
 
