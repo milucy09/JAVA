@@ -157,3 +157,54 @@ Make: Toyota
 Model: Camry
 Year: 2022
 Number of Doors: 4
+
+
+# Task14
+Task14.java
+Create a subclass of the abstract class and implement the abstract method.
+
+abstract class abstractClass{
+	abstract void abstractMethod();
+	void concreteMethod() { // concrete methods are still allowed in abstract classes 
+		System.out.println("This is a concrete method.");
+	}
+}
+
+class B extends abstractClass{
+	void abstractMethod() {
+		System.out.println('B's implementation of abstractMethod.");
+	}
+}
+
+class C extends abstractClass{
+// Your code goes here
+}
+
+public class Task14{
+	public static void main(String args[]) { 
+		Bb = new B(); 
+		b.abstractMethod(); 
+		b.concreteMethod(); 
+		Cc = new C();
+		c.abstractMethod();
+		c.concreteMethod();
+	}
+}
+
+# Task15
+
+Task15.java
+1.Define an interface called Shape with the following methods:
+• calculateArea(): double (Math.PI* radius * radius; )
+• calculatePerimeter(): double (2* Math.PI * radius;)
+2.Create an abstract class called AbstractShape that implements the Shape interface. This class should have:
+• Instance variables to represent common attributes of shapes.
+String color, double length, double width
+• A constructor to initialize these attributes.
+• Implementations for the calculateArea and calculatePerimeter methods.
+3.Implement two concrete classes that extend AbstractShape:
+• Circle: Representing a circle. Include a radius as an attribute.
+• Rectangle: Representing a rectangle. Include length and width as attributes.
+4.In the Main class:
+• Create instances of Circle and Rectangle.
+• Display their areas and perimeters

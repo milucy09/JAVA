@@ -10,8 +10,10 @@ public class SolutionTest {
         int[] result = sol.twoSum(new int[]{2, 7, 11, 15}, 9);
         System.out.println(result[0] + ", " + result[1]);
         assertArrayEquals(new int[]{0, 1}, result);
-        
-
+        } catch (Exception e) {
+            e.printStackTrace(); // This will print the actual error in the test logs
+            fail("Exception thrown: " + e.getMessage());
+        }
     }
 
     @Test
