@@ -5,6 +5,7 @@ public class SolutionTest {
 
     @Test
     public void testExample1() {
+            try {
         Solution sol = new Solution();
         int[] result = sol.twoSum(new int[]{2, 7, 11, 15}, 9);
         System.out.println(result[0] + ", " + result[1]);
